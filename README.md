@@ -22,13 +22,13 @@ extends:
 
 if you want to include `nodejs` rule set
 
-add below `node.yaml` to `extends` block
+add `node.yaml` to `extends` block
 
 ```yaml
   - bundle/env/node.yaml
 ```
 
-if you test with `mocha` and `chai`
+if you have tests with `mocha` and `chai`
 
 add below `mocha.yaml` & `chai.yaml` to `extends` block
 
