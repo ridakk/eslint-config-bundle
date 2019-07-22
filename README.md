@@ -1,33 +1,47 @@
-# base-javascript-project-boilerplate
+# eslint-config-bundle
 
-A base JavaScript Boiler plate with bare minumum dependencies.
+Eslint configuration bundle
 
-## ESLint
-
-Ready to use [eslint](https://eslint.org/) configuration with:
-
-- eslint-config-airbnb-base
-- eslint-plugin-dependencies
-- eslint-plugin-import
-- eslint-plugin-node
-- eslint-plugin-promise
-- eslint-plugin-security
-- eslint-plugin-standard
-
-To see eslint output from console:
+## How to use
 
 ```bash
-npm run lint
+  npm i -D eslint-config-bundle
 ```
 
-## Commitlint
+create an `.eslintrc.yaml`
 
-[commitlint](https://github.com/conventional-changelog/commitlint) configuration with [config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
+```yaml
+---
+env:
+  node: true
+  es6: true
 
-## Husky
+extends:
+  - bundle/env/core.yaml
+```
 
-Lint commits before they are created via [Husky's](https://github.com/typicode/husky#readme) 'commit-msg' hook.
+if you want to include `nodejs` rule set
 
-## Versioning and CHANGELOG.md
+add below `node.yaml` to `extends` block
 
-Versioning and CHANGELOG generation via [standard-version](https://github.com/conventional-changelog/standard-version#readme)
+```yaml
+  - bundle/env/node.yaml
+```
+
+if you test with `mocha` and `chai`
+
+add below `mocha.yaml` & `chai.yaml` to `extends` block
+
+```yaml
+  - bundle/env/mocha.yaml
+  - bundle/env/chai.yaml
+```
+
+## Bundled configurations
+
+- [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)
+- [eslint-plugin-dependencies](https://www.npmjs.com/package/eslint-plugin-dependencies)
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node)
+- [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
+- [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)

@@ -1,0 +1,32 @@
+---
+rules:
+  import/newline-after-import:
+    - 1
+
+# Ensure imports point to a file/module that can be resolved.
+  import/no-unresolved:
+    - 2
+
+# Forbid import of modules using absolute paths
+  import/no-absolute-path:
+    - 2
+
+# Forbid the use of extraneous packages
+  import/no-extraneous-dependencies:
+    - 2
+
+# Enforce a convention in module import order
+  import/order:
+    - 2
+
+# Forbid unassigned imports
+  import/no-unassigned-import:
+    - 2
+
+# Forbid anonymous values as default exports
+  import/no-anonymous-default-export:
+    - 2
+
+# Limit the maximum number of dependencies a module can have
+  import/max-dependencies:
+    - 1

@@ -1,23 +1,19 @@
 {
-  "name": "base-javascript-project-boilerplate",
+  "name": "eslint-config-bundle",
   "version": "1.0.0",
-  "description": "Base JavaScript Project Boilerplate",
+  "description": "eslint configuration bundle",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version",
-    "lint": "eslint ."
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ridakk/base-javascript-project-boilerplate.git"
   },
   "keywords": [
-    "javascript",
-    "boilerplate",
     "eslint",
-    "commitlint",
-    "husky",
-    "standard-version"
+    "config",
+    "bundle"
   ],
   "author": "Kadir Goktas",
   "license": "MIT",
@@ -31,7 +27,7 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
+    "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -40,8 +36,16 @@
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^4.0.0",
     "husky": "^2.4.0",
     "standard-version": "^6.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-dependencies": "^2.4.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-security": "^1.4.0"
   }
 }

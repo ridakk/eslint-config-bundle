@@ -1,0 +1,62 @@
+---
+rules:
+# enforces handling of callbacks for async tests
+  mocha/handle-done-callback:
+    - 2
+
+# limit the number of top-level suites in a single file
+  mocha/max-top-level-suites:
+    - 2
+    - limit: 1
+
+# disallow exclusive mocha tests
+  mocha/no-exclusive-tests:
+    - 2
+
+# disallow global tests
+  mocha/no-global-tests:
+    - 2
+
+# disallow hooks
+# mocha/no-hooks
+
+# disallow hooks for a single test or test suite
+# mocha/no-hooks-for-single-case
+
+# disallow identical titles
+  mocha/no-identical-title:
+    - 2
+
+# disallow arrow functions as arguments to mocha globals
+# mocha/no-mocha-arrows
+
+# disallow tests to be nested within other tests
+  mocha/no-nested-tests:
+    - 2
+
+# disallow pending/unimplemented mocha tests
+  mocha/no-pending-tests:
+    - 2
+
+# disallow returning in a test or hook function that uses a callback
+  mocha/no-return-and-callback:
+    - 2
+
+# disallow duplicate uses of a hook at the same level inside a describe
+# mocha/no-sibling-hooks
+
+# disallow skipped mocha tests (fixable)
+  mocha/no-skipped-tests:
+    - 2
+
+# disallow synchronous tests
+# mocha/no-synchronous-tests
+
+# disallow top-level hooks
+# mocha/no-top-level-hooks
+
+# match suite descriptions against a pre-configured regular expression
+# mocha/valid-suite-description
+
+# match test descriptions against a pre-configured regular expression
+# mocha/valid-test-description
