@@ -33,6 +33,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-security": "^1.4.0",
@@ -44,6 +45,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-security": "^1.4.0"
