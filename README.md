@@ -42,6 +42,7 @@ add below `mocha.yaml` & `chai.yaml` to `extends` block
 - [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)
 - [eslint-plugin-dependencies](https://www.npmjs.com/package/eslint-plugin-dependencies)
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-json](https://www.npmjs.com/package/eslint-json)
 - [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node)
 - [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
 - [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
