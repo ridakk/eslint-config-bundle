@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bundle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint configuration bundle",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,6 @@
   "peerDependencies": {
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-node": "^11.1.0",
@@ -41,7 +40,6 @@
     "@commitlint/config-conventional": "^11.0.0",
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-node": "^11.1.0",
