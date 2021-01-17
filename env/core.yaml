@@ -3,11 +3,9 @@ plugins:
   - json
   - import
   - security
-  - dependencies
 extends:
   - eslint:recommended
   - airbnb-base
   - plugin:security/recommended
   - ../lib/plugin/import.yaml
-  - ../lib/plugin/dependencies.yaml
   - ../lib/std/style.yaml
